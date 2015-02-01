@@ -10,14 +10,12 @@
 	display:inline-block;
 }
 
-.box1flash {
-	background-color: #2A9C7A;
+.bambooGreen {
+    background-color: #2A9C7A;
 }
 
-.startButton {
-	display: inline-block;
+.startButton button {
 	background-color: aliceblue;
-	border: 1px solid black;
 }
 
 
@@ -27,7 +25,5 @@
 .bold {
     font-weight: bold;
 }
-.bambooGreen {
-    background-color: #2A9C7A;
-}
+
 
