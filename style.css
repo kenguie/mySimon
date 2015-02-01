@@ -10,8 +10,44 @@
 	display:inline-block;
 }
 
+.box2 {
+	height:200px;
+	width: 200px;
+	background-color: blue;
+	border: 2px solid black;
+	display:inline-block;
+}
+
+.box3 {
+	height:200px;
+	width: 200px;
+	background-color: red;
+	border: 2px solid black;
+	display:inline-block;
+}
+
+.box4 {
+	height:200px;
+	width: 200px;
+	background-color: yellow;
+	border: 2px solid black;
+	display:inline-block;
+}
+
 .bambooGreen {
     background-color: #2A9C7A;
+}
+
+.lightBlue {
+		background-color: lightblue;
+}
+
+.vRed {
+		background-color: #E94840;
+}
+
+.yellowish {
+		background-color: gold;
 }
 
 .startButton button {
