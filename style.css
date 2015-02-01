@@ -19,3 +19,14 @@
 	background-color: aliceblue;
 	border: 1px solid black;
 }
+
+
+.strike {
+  text-decoration: line-through;
+}
+.bold {
+    font-weight: bold;
+}
+.bambooGreen {
+    background-color: #2A9C7A;
+}
