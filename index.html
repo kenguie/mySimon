@@ -12,29 +12,20 @@
 <body ng-app="mySimon">
 	It's Angular!
 
+<!-- Colored Boxes -->
 	<div class="boxContainer1" >
 		<div ng-controller="box1 as box" class="box1">
 			<div ng-bind="box.myarray"></div>		
 		</div>
-
-		<div ng-controller="box2 as box" class="box2">
-			<div ng-bind="box.myarray"></div>
-		</div>
 	</div>
 
-	<div class="boxContainer2">
-		<div ng-controller="box3 as box" class="box3">
-			<div ng-bind="box.myarray"></div>
-		</div>
-
-		<div ng-controller="box4 as box" class="box4">
-			<div ng-bind="box.myarray"></div>
-		</div>
-	</div>
-
+<!-- Start Button -->
 	<div class="startButton">
-		<h3> Start </h3>
+		<button ng-click="count=count+1" ng-init="count=0"> Start </button>
 	</div>
+	<span>
+	  count: {{count}}
+	</span>
 
 </body>
 </html>

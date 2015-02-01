@@ -10,38 +10,12 @@
 	display:inline-block;
 }
 
-.box2 {
-	height:200px;
-	width: 200px;
-	background-color: red;
-	border: 2px solid black;
-	display:inline-block;
-}
-
-.box3 {
-	height:200px;
-	width: 200px;
-	background-color: yellow;
-	border: 2px solid black;
-	display:inline-block;
-}
-
-.box4 {
-	height:200px;
-	width: 200px;
-	background-color: blue;
-	border: 2px solid black;
-	display:inline-block;
+.box1flash {
+	background-color: #2A9C7A;
 }
 
 .startButton {
 	display: inline-block;
 	background-color: aliceblue;
 	border: 1px solid black;
-	padding: 10px;
-}
-
-.startButton h3 {
-	margin: 0;
-	background-color: aliceblue;
 }
